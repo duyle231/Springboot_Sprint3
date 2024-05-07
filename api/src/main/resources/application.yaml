@@ -1,0 +1,13 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /employers
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/employer_service?serverTimezone=UTC&useSSL=false
+    username: root
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
